@@ -1,0 +1,10 @@
+<view class="logoControl">
+  <image class="logo" src="../../images/logo.png"/>
+  <view class="katName">KatCloud</view>
+</view>
+
+<view class="line"></view>
+
+<view>
+		<button form-type="submit" class="login" type="primary" bindtap="login">登录</button>
+</view>

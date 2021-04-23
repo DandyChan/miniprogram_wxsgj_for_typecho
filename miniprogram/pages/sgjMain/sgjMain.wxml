@@ -1,0 +1,77 @@
+<form bindsubmit="sendSGJ">
+  <!-- 发送时光机 -->
+	<view class="btn">
+		<button form-type="submit" type="primary" size="mini">发送</button>
+  </view>
+<<<<<<< HEAD
+  <!-- 文本域 -->
+	<view class="field">
+    <textarea class="inputView" bindinput="sgjInput"
+      auto-focus="true"  show-confirm-bar="false" value="{{con}}"
+      name="sgj" placeholder="分享当下所想..."/>
+  </view>
+  <!-- 表情 -->
+  <view class="biaoqing">
+    <van-icon name="smile-o" size="80rpx" color="#6F6F6F" bindtap="showBiaoqing"/>
+  </view>
+  <!-- 表情框 -->
+  <van-popup show="{{showBiaoqing}}" bind:close="hideBiaoqing"
+             position="bottom" active-color="#07c160"
+             inactive-color="#000" 
+             custom-style="height: 50%;">
+            <!-- 表情列表 -->
+            <view class="bqList">
+            <!-- 泡泡 -->
+            <block wx:if="{{active == 0}}">
+              <block wx:for="{{paopao}}" wx:key="key">
+                <view class="bqEvery" bindtap="getBiaoqing" 
+                      data-bqId="{{item.data}}">
+                      <image class="bqImg" src="{{item.icon}}"/>
+                </view>
+              </block>
+            </block>
+            <!-- 蛆音娘 -->
+            <block wx:if="{{active == 1}}">
+              <block wx:for="{{quyinniang}}" wx:key="key">
+                <view class="bqEvery" bindtap="getBiaoqing"
+                      data-bqId="{{item.data}}">
+                      <image class="bqImg" src="{{item.icon}}"/>
+                </view>
+              </block>
+            </block>
+            <!-- 阿鲁 -->
+            <block wx:if="{{active == 2}}">
+              <block wx:for="{{alu}}" wx:key="key">
+                <view class="bqEvery" bindtap="getBiaoqing"
+                      data-bqId="{{item.data}}">
+                      <image class="bqImg" src="{{item.icon}}"/>
+                </view>
+              </block>
+            </block>
+            <!-- 颜文字 -->
+            <block wx:if="{{active == 3}}">
+              <block wx:for="{{yanwenzi}}" wx:key="key">
+                <view class="bqEvery" bindtap="getBiaoqing"
+                      data-bqId="{{item.icon}}">
+                      {{item.icon}}
+                </view>
+              </block>
+            </block>
+            </view> 
+            <van-tabbar active="{{active}}" bind:change="biaoqingActive"
+                        placeholder="true">
+            <van-tabbar-item>泡泡</van-tabbar-item>
+            <van-tabbar-item>蛆音娘</van-tabbar-item>
+            <van-tabbar-item>阿鲁</van-tabbar-item>
+            <van-tabbar-item>颜文字</van-tabbar-item>
+  </van-tabbar>
+  </van-popup>
+=======
+  <!-- textarea -->
+	<view class="field">
+    <textarea class="inputView"
+      auto-focus="true"  show-confirm-bar="false" value="{{con}}"
+      name="sgj" placeholder="分享当下所想..."/>
+	</view>
+>>>>>>> a203bf8b2e5537fe7e97f109a8f6f0352b3787e0
+</form>

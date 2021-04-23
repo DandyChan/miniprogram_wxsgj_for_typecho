@@ -1,0 +1,36 @@
+{
+<<<<<<< HEAD
+  "setting": {},
+=======
+>>>>>>> a203bf8b2e5537fe7e97f109a8f6f0352b3787e0
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+<<<<<<< HEAD
+      "list": []
+=======
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "sgjMain",
+          "pathName": "pages/sgjMain/sgjMain",
+          "scene": null
+        }
+      ]
+>>>>>>> a203bf8b2e5537fe7e97f109a8f6f0352b3787e0
+    }
+  }
+}

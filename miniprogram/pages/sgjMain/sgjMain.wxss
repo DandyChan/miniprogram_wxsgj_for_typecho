@@ -1,0 +1,47 @@
+.field {
+  margin-top: 30rpx;
+}
+
+.inputView {
+	background-color: #fff;
+	border-bottom: 4rpx solid #ededed;
+  width: 100%;
+<<<<<<< HEAD
+  height: 900rpx;
+=======
+  height: 1000rpx;
+>>>>>>> a203bf8b2e5537fe7e97f109a8f6f0352b3787e0
+}
+
+.btn{
+  text-align: right;
+  margin-right: 30rpx;
+  margin-top: 30rpx;
+}
+<<<<<<< HEAD
+
+.biaoqing{
+  text-align: right;
+  margin-right: 30rpx;
+  margin-top: 30rpx;
+}
+
+.bqList{
+  font-size: 18px;
+  margin-bottom: 100rpx;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  line-height: 24px;
+}
+
+.bqEvery{
+  margin: 40rpx;
+}
+
+.bqImg{
+  max-width: 90rpx;
+  height: 88rpx;
+}
+=======
+>>>>>>> a203bf8b2e5537fe7e97f109a8f6f0352b3787e0

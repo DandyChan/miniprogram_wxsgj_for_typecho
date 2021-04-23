@@ -1,0 +1,17 @@
+{
+<<<<<<< HEAD
+  "usingComponents": {
+    "van-icon": "../../components/vantCpn/icon/index",
+    "van-popup": "../../components/vantCpn/popup/index",
+    "van-tabs": "../../components/vantCpn/tabs/index",
+    "van-tab": "../../components/vantCpn/tab/index",
+    "van-tabbar": "../../components/vantCpn/tabbar/index",
+    "van-tabbar-item": "../../components/vantCpn/tabbar-item/index"
+  },
+  "navigationBarTitleText": "发送时光机",
+  "disableScroll": true
+=======
+  "usingComponents": {},
+  "navigationBarTitleText": "发送时光机"
+>>>>>>> a203bf8b2e5537fe7e97f109a8f6f0352b3787e0
+}
