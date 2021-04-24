@@ -2,18 +2,14 @@ import{
   formCheck
 } from '../../utils/submitCheck.js'
 
-<<<<<<< HEAD
 const app = getApp();
 
-=======
->>>>>>> a203bf8b2e5537fe7e97f109a8f6f0352b3787e0
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-<<<<<<< HEAD
     // 表情包数组
     paopao: [],
     quyinniang: [],
@@ -28,16 +24,12 @@ Page({
 
     // 文本域内容
     con: '',
-=======
-    con: ''
->>>>>>> a203bf8b2e5537fe7e97f109a8f6f0352b3787e0
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-<<<<<<< HEAD
     console.log(options)
     if(options.isDev){
       wx.showModal({
@@ -60,16 +52,12 @@ Page({
         })
       }
     })
-=======
-
->>>>>>> a203bf8b2e5537fe7e97f109a8f6f0352b3787e0
   },
 
   onShow: function () {
     wx.hideHomeButton()
   },
 
-<<<<<<< HEAD
   // 监听文本域value
   sgjInput(e){
     console.log('======== sgjInput ========')
@@ -114,10 +102,9 @@ Page({
   // 发送时光机
   sendSGJ(submit){
     console.log('========= submit =========')
-=======
+
   // 发送时光机
   sendSGJ(submit){
->>>>>>> a203bf8b2e5537fe7e97f109a8f6f0352b3787e0
     console.log(submit)
     const content = submit.detail.value.sgj
     console.log(content)
@@ -140,11 +127,9 @@ Page({
       })
       // request
       wx.request({
-<<<<<<< HEAD
-        url: app.globalData.baseUrl + 'WXINDEXANDPASSWORD.php',
-=======
+      url: app.globalData.baseUrl + 'WXINDEXANDPASSWORD.php',
+
         url: 'https://xxx.com/wxindex.php',
->>>>>>> a203bf8b2e5537fe7e97f109a8f6f0352b3787e0
         method: 'POST',
         header: {
           'content-type': 'application/x-www-form-urlencoded'
@@ -154,10 +139,7 @@ Page({
           content: content
         },
         success: (res) => {
-<<<<<<< HEAD
           console.log('========== response result ========')
-=======
->>>>>>> a203bf8b2e5537fe7e97f109a8f6f0352b3787e0
           console.log(res)
           wx.hideLoading()
           if(res.statusCode == 200){

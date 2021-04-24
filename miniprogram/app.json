@@ -1,12 +1,9 @@
 {
   "pages": [
     "pages/login/login",
-<<<<<<< HEAD
     "pages/sgjMain/sgjMain",
     "pages/owoList/owoList"
-=======
     "pages/sgjMain/sgjMain"
->>>>>>> a203bf8b2e5537fe7e97f109a8f6f0352b3787e0
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

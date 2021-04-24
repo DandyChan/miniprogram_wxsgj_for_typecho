@@ -15,12 +15,9 @@ App({
     }
 
     this.globalData = {
-<<<<<<< HEAD
       openId: '',
       baseUrl: 'BASEURL'
-=======
       openId: ''
->>>>>>> a203bf8b2e5537fe7e97f109a8f6f0352b3787e0
     }
   }
 })

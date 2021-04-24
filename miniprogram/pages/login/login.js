@@ -21,7 +21,6 @@ Page({
     const db = wx.cloud.database()
     console.log('======= oauth =======')
     console.log(openId)
-<<<<<<< HEAD
 
     // 检查是否为开发提审模式
     db.collection('DevMode').where({
@@ -56,7 +55,6 @@ Page({
                 })
               }
             }
-=======
     // wx.showLoading({
     //   title: '登录中...',
     //   mask: true,
@@ -77,15 +75,10 @@ Page({
         }else{
           wx.redirectTo({
             url: '/pages/sgjMain/sgjMain',
->>>>>>> a203bf8b2e5537fe7e97f109a8f6f0352b3787e0
           })
         }
       }
     })
-<<<<<<< HEAD
-
-=======
->>>>>>> a203bf8b2e5537fe7e97f109a8f6f0352b3787e0
   },
 
   // 获取open ID进行比对
